@@ -22,5 +22,6 @@ public class Users {
     private String telefono;
     @Column
     private String comuna;
+    @Column String codecomuna;
 
 }

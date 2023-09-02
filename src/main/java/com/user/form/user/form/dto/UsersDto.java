@@ -1,5 +1,6 @@
 package com.user.form.user.form.dto;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.Column;
 import lombok.Data;
 
@@ -10,4 +11,5 @@ public class UsersDto {
     private String apellido;
     private String telefono;
     private String comuna;
+    private String codecomuna;
 }

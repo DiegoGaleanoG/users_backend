@@ -4,5 +4,6 @@ id int auto_increment primary key,
 nombre varchar(50) not null,
 apellido varchar(50) not null,
 telefono varchar(50) not null,
-comuna varchar(50) not null
+comuna varchar(50) not null,
+codecomuna varchar(50) not null
 );

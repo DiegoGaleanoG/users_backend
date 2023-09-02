@@ -71,6 +71,7 @@ public class UserServicesImpl implements IUserService {
                     .apellido(usuario.getApellido())
                     .comuna(usuario.getComuna())
                     .telefono(usuario.getTelefono())
+                    .codecomuna(usuario.getCodecomuna())
                     .build();
             iUsersRepository.save(saveUser);
 
@@ -90,6 +91,7 @@ public class UserServicesImpl implements IUserService {
                     .apellido(usuario.getApellido())
                     .comuna(usuario.getComuna())
                     .telefono(usuario.getTelefono())
+                    .codecomuna(usuario.getCodecomuna())
                     .build();
             iUsersRepository.save(updateUser);
 
